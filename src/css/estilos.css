@@ -7,7 +7,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1120px;
-	background: linear-gradient(150deg, #0e021f, #012519);
+	background: linear-gradient(150deg, #000000, #9e00ff);
 	background-size: 120% 120%;
 }
 
@@ -19,12 +19,11 @@ body {
 }
 
 .cabecalho .logo {
-	width: 85px;
-	height: 60px;
+	width: 75px;
+	height: 65px;
 	border-radius: 50%;
 	border: 2px solid #fff;
-	border-inline: 5px solid #0ae0abef;
-	text-decoration: underline #9443d8;
+	text-decoration: underline;
 	text-align: center;
 	line-height: 55px;
 	font-family: "Raleway", sans-serif;
@@ -32,14 +31,13 @@ body {
 }
 
 .cabecalho a:hover .logo {
-	color: #43d875;
-	border: 2px solid #43d85c;
+	color: #9443d8;
+	border: 2px solid #9443d8;
 }
 
 .cabecalho .menu li a {
 	font-size: 20px;
 	text-transform: capitalize;
-	text-decoration: underline #0ae0abef;
 	padding: 10px 20px;
 	transition: 0.2s;
 }
@@ -86,7 +84,7 @@ body {
 
 .home .redes-sociais a i {
 	border: 1px solid #fff;
-	border-inline: 4px solid #0ae0abef;	border-radius: 50%;
+	border-radius: 50%;
 	width: 50px;
 	height: 50px;
 	padding: 10px;
@@ -96,9 +94,9 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-	color: #43d85c;
+	color: #9443d8;
 	border: 1px solid #9443d8;
-	transform: scale(1.5);
+	transform: scale(1.1);
 }
 
 .home .container-foto .foto {
@@ -122,7 +120,6 @@ body {
 }
 
 .projetos .titulo {
-	color: #9353c7;
 	text-align: center;
 	padding: 60px 0;
 	font-size: 45px;
@@ -154,7 +151,6 @@ body {
 }
 
 .projetos .projeto h3 {
-	color: #34df12;
 	background-color: #040203;
 	width: 100%;
 	padding-left: 20px;
@@ -165,14 +161,14 @@ body {
 }
 
 .projetos .projeto .informacoes-projeto {
-	background-color: #ac1ce6;
+	background-color: #040203;
 	position: absolute;
 	top: 0;
 	width: 100%;
 	height: 100%;
 	font-weight: 600;
 	opacity: 0;
-	transition: 0,8s;
+	transition: 0.3s;
 	padding: 20px;
 }
 
@@ -183,8 +179,8 @@ body {
 
 .projetos .btn-mostrar-projetos {
 	background: none;
-	border: 2px solid #fff;
-	border-radius: 20px;
+	border: 1px solid #fff;
+	border-radius: 15px;
 	color: #fff;
 	width: 180px;
 	padding: 20px;
